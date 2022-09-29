@@ -13,22 +13,22 @@ Create links to JEDI files:
 
 .. code-block:: console
 
-   cd jedi/fv3-jedi/Data make_links.sh [ path-to-jedi-fv3-bundle-build ]
-   cd ../../ioda make_links.sh [ path-to-jedi-ioda-bundle-src ] cd ../../../
+    cd jedi/fv3-jedi/Data make_links.sh [ path-to-jedi-fv3-bundle-build ]
+    cd ../../ioda make_links.sh [ path-to-jedi-ioda-bundle-src ] cd ../../../
 
 Fetch submodules:
 --------------------
 
 .. code-block:: console
 
-   git submodule update --init
+    git submodule update --init
 
 Compile directories 
 ----------------------
 
 .. code-block:: console
 
-   cd add_jedi_incr build.sh cd .. cd IMS_proc/ build.sh cd ..
+    cd add_jedi_incr build.sh cd .. cd IMS_proc/ build.sh cd ..
 
 Running
 -------
@@ -36,4 +36,4 @@ Edit settings file, edit ``submit_landDA.sh`` (your account details, your settin
 
 .. code-block:: console
 
-   sbatch submit_landDA.sh
+    sbatch submit_landDA.sh

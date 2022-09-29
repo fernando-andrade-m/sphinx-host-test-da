@@ -1,7 +1,3 @@
-.. Land-Vector2Tile documentation master file, created by
-   sphinx-quickstart on Wed Sep 21 12:07:06 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 Welcome to Land-IMS_Proc's documentation!
 ============================================
@@ -12,7 +8,7 @@ Contents
 --------
 
 .. toctree::
-   usage
+    usage
 
 Authors / Contributors
 ----------------------
