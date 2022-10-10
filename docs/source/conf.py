@@ -18,8 +18,9 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Land DA'
-copyright = '2022, <PLACEHOLDER>'
-author = '<PLACEHOLDER>'
+# TODO - uncomment next two lines and fill in appropriate info
+# copyright = '2022, <PLACEHOLDER>'
+# author = '<PLACEHOLDER>'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'

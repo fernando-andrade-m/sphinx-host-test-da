@@ -17,10 +17,3 @@ Contents
 * `CCPP Physics GitHub wiki <https://github.com/NCAR/ccpp-physics/wiki>`_
 * `CCPP Framework GitHub wiki <https://github.com/NCAR/ccpp-framework/wiki>`_
 
-Authors / Contributors
-----------------------
-* Ligia Bernardet
-* Timothy Brown
-* Dom Heinzeller
-* Laurie Carson
-* mdtoyNOAA

@@ -11,6 +11,4 @@ Contents
 .. toctree::
     usage
 
-Authors / Contributors
-----------------------
-* Michael Barlage
+

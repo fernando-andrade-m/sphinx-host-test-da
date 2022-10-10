@@ -33,16 +33,3 @@ Recent Changes
 #. A new module, ``mo_rte_config``, contains two logical variables that indicate whether arguments to routines are to be checked for correct extents and/or valid values. These variables can be changed via calls to ``rte_config_checks()``. Setting the values to ``.false.`` removes the checks. Invalid values may cause incorrect results, crashes, or other mayhem
 
 Relative to commit ``69d36c9`` to ``master`` on Apr 20, 2020, the required arguments to both the longwave and shortwave versions of ``ty_gas_optics_rrtmgp%load()`` have changed.
-
-Authors / Contributors
-----------------------
-* Robert Pincus
-* Dmitry Alexeev
-* Peter Ukkonen
-* Nichols A. Romero
-* jdelamere
-* Dustin Wales
-* Valentin Clement
-* Chiel van Heerwaarden
-* Benjamin R. Hillman
-* inpolonsky

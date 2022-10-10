@@ -1,5 +1,5 @@
-Land Offline Workflow
-=====================
+Land Offline Workflow Documentation
+===================================
 
 
 The `Land Offline Workflow repo <https://github.com/noaa-psd/land-offline_workflow>`_ includes script to run cycling DA using JEDI in cube sphere space, and offline Noah-MP model in vector space.
@@ -15,10 +15,18 @@ Contents
 
     Usage <usage>
 
+Directory Structure
+-------------------
 
-Authors / Contributors
-----------------------
+Below is a shortened directory structure overview of the components. Subdirectories have been omitted unless they contain other Land DA components.
 
-* Clara Draper
-* Michael Barlage
-* Zhichang Guo
+.. code-block::
+
+    land-offline_workflow
+    ├── DA_update
+    │   └── IMS_proc
+    ├── ufs-land-driver
+    │   └── ccpp-physics
+    │       └── physics
+    │           └── rte-rrtmgp
+    └── vector2tile

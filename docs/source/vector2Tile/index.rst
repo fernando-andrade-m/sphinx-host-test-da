@@ -9,9 +9,3 @@ Contents
 
 .. toctree::
    usage
-
-Authors / Contributors
-----------------------
-
-* Clara Draper
-* Mike Barlage

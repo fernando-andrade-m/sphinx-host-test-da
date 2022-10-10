@@ -6,18 +6,23 @@ Welcome to Land DA's documentation!
 
 Documentation on each of the Land DA's components is listed below.
 
+.. note ::
+    Development is currently underway on implementing ecbuild and CMake. 
+    Usage of the Land DA system will change and should be simplified following this update.
+
 Table of Contents
 =================
 
 .. toctree::
     :numbered:
-    :maxdepth: 2
+    :maxdepth: 1
 
+    Land Offline Workflow <land-offline_workflow/index>
     Vector2Tile <vector2Tile/index>
     IMS Proc <land-IMS_proc/index>
     DA Update <land-DA_update/index>
     UFS Land Driver <ufs-land-driver/index>
     CCPP Physics <ccpp-physics/index>
     RTE-RRTMGP <rte-rrtmgp/index>
-    Land Offline Workflow <land-offline_workflow/index>
+    
 
