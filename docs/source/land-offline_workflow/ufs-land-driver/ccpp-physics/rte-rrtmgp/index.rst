@@ -1,4 +1,4 @@
-
+.. _rte-rrtmgp:
 
 Welcome to RTE+RRTMGP's documentation!
 ============================================

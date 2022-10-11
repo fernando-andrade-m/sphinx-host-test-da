@@ -1,3 +1,4 @@
+.. _vector2tile:
 
 Welcome to Land-Vector2Tile's documentation!
 ============================================
@@ -8,4 +9,5 @@ Contents
 --------
 
 .. toctree::
+   
    usage

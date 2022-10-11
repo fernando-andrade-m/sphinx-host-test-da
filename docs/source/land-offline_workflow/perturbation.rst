@@ -5,7 +5,7 @@ The **ensemble_part/** directory consists of code to apply the given perturbatio
 
 We assume the perturbation pattern has been generated using the UFS `stochastic physics <https://github.com/pjpegion/stochastic_physics>`_ package and mapped to vector format used by the Noah-MP offline driver from the tile format used by the UFS atmospheric model with the following procedures.
 
-**Documentation** for the **stochastic physics** package can be found `here <https://noaa-psd.github.io/stochastic_physics/>`_.
+**Documentation** for the **stochastic physics** package can be found `here <https://noaa-psl.github.io/stochastic_physics/>`_.
 
 #. git clone the repo of the UFS `stochastic physics <https://github.com/pjpegion/stochastic_physics>`_ package:
 

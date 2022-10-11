@@ -10,19 +10,61 @@ Documentation on each of the Land DA's components is listed below.
     Development is currently underway on implementing ecbuild and CMake. 
     Usage of the Land DA system will change and should be simplified following this update.
 
-Table of Contents
-=================
+Directory Structure
+-------------------
+
+Below is a shortened directory structure overview of the components. Subdirectories have been omitted unless they contain other Land DA components.
+
+.. code-block::
+
+    land-offline_workflow
+    ├── DA_update
+    │   └── IMS_proc
+    ├── ufs-land-driver
+    │   └── ccpp-physics
+    │       └── physics
+    │           └── rte-rrtmgp
+    └── vector2tile
+
+Usage Overview
+--------------
+General order for usage of the Land DA Offline Workflow is as follows:
+
+#. Clone the offline workflow repo and initiate submodules
+#. Set up vector2Tile
+#. Set up the UFS Land Driver and submodules
+#. Set up DA_Update
+#. Run and check the test
 
 .. toctree::
-    :numbered:
-    :maxdepth: 1
+    :hidden:
 
     Land Offline Workflow <land-offline_workflow/index>
-    Vector2Tile <vector2Tile/index>
-    IMS Proc <land-IMS_proc/index>
-    DA Update <land-DA_update/index>
-    UFS Land Driver <ufs-land-driver/index>
-    CCPP Physics <ccpp-physics/index>
-    RTE-RRTMGP <rte-rrtmgp/index>
+    Vector2Tile           <land-offline_workflow/vector2Tile/index>
+    UFS Land Driver       <land-offline_workflow/ufs-land-driver/index>
+    CCPP Physics          <land-offline_workflow/ufs-land-driver/ccpp-physics/index>
+    RTE-RRTMGP            <land-offline_workflow/ufs-land-driver/ccpp-physics/rte-rrtmgp/index>
+    DA Update             <land-offline_workflow/land-DA_update/index>
+    IMS Proc              <land-offline_workflow/land-DA_update/land-IMS_proc/index>
     
 
+
+.. Vector2Tile           <land-offline_workflow/vector2Tile/index>
+.. UFS Land Driver       <land-offline_workflow/ufs-land-driver/index>
+.. DA Update             <land-offline_workflow/land-DA_update/index>
+
+.. CCPP Physics          <land-offline_workflow/ufs-land-driver/ccpp-physics/index>
+.. RTE-RRTMGP            <land-offline_workflow/ufs-land-driver/ccpp-physics/rte-rrtmgp/index>
+.. IMS Proc              <land-offline_workflow/land-DA_update/land-IMS_proc/index>
+
+Table of Contents
+-----------------
+
+
+#. :ref:`Offline Workflow <land-offline-workflow>`
+#. :ref:`Vector2Tile <vector2tile>`
+#. :ref:`UFS Land Driver <ufs-land-driver>`
+#. :ref:`CCPP Physics <ccpp-physics>`
+#. :ref:`RTE RRTMGP <rte-rrtmgp>`
+#. :ref:`DA Update <land-DA-update>`
+#. :ref:`IMS Proc <land-IMS-proc>`

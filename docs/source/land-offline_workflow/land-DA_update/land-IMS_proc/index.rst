@@ -1,3 +1,4 @@
+.. _land-IMS-proc:
 
 Land-IMS_Proc's Documentation
 ============================================
@@ -8,4 +9,6 @@ Contents
 --------
 
 .. toctree::
+    :maxdepth: 2
+
     usage

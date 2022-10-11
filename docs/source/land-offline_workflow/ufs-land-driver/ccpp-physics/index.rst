@@ -1,4 +1,4 @@
-
+.. _ccpp-physics:
 
 CCPP Physics documentation
 ============================================
@@ -17,3 +17,7 @@ Contents
 * `CCPP Physics GitHub wiki <https://github.com/NCAR/ccpp-physics/wiki>`_
 * `CCPP Framework GitHub wiki <https://github.com/NCAR/ccpp-framework/wiki>`_
 
+.. toctree::
+    :maxdepth: 2
+
+    RTE RRTMGP Component <rte-rrtmgp/index>

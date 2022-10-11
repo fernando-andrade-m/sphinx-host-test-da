@@ -1,3 +1,4 @@
+.. _land-DA-update:
 
 Land-DA_update Documentation
 ============================================
@@ -8,6 +9,9 @@ Contents
 --------
 
 .. toctree::
+    :maxdepth: 1
+
     usage
     increment
+    Land IMS Proc Component <land-IMS_proc/index>
 

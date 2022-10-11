@@ -1,3 +1,5 @@
+.. _land-offline-workflow:
+
 Land Offline Workflow Documentation
 ===================================
 
@@ -12,21 +14,6 @@ Contents
 --------
 
 .. toctree::
+    :maxdepth: 4
 
-    Usage <usage>
-
-Directory Structure
--------------------
-
-Below is a shortened directory structure overview of the components. Subdirectories have been omitted unless they contain other Land DA components.
-
-.. code-block::
-
-    land-offline_workflow
-    ├── DA_update
-    │   └── IMS_proc
-    ├── ufs-land-driver
-    │   └── ccpp-physics
-    │       └── physics
-    │           └── rte-rrtmgp
-    └── vector2tile
+    Usage  <usage>

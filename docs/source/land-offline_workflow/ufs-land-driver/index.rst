@@ -1,4 +1,4 @@
-
+.. _ufs-land-driver:
 
 Welcome to UFS Land Driver's documentation!
 ============================================
@@ -9,6 +9,9 @@ Contents
 --------
 
 .. toctree::
+    :maxdepth: 3
+
     usage
+    CCPP Physics Component <ccpp-physics/index>
 
 
